@@ -7,7 +7,7 @@
 .box img {
     margin-top: -800px;
     margin-left: 550px;
-    width: 40%; 
+    width: 30%; 
     height: auto; 
   }
   .title{
@@ -15,10 +15,10 @@
   }
   .char{
     margin-top: 10px;
-    margin-left: 480px;
+    margin-left: 700px;
   }
 
   .char2{
-    margin-left: 300px;
+    margin-left: 530px;
     margin-top: -50px;
   }
