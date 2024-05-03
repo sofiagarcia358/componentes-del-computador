@@ -1,0 +1,24 @@
+.p1{
+    width: 400px;
+    font-size: 16px;
+    margin-top: -225px;
+    margin-left: 120px;
+}
+.box img {
+    margin-top: -800px;
+    margin-left: 550px;
+    width: 40%; 
+    height: auto; 
+  }
+  .title{
+    text-align: center;
+  }
+  .char{
+    margin-top: 10px;
+    margin-left: 480px;
+  }
+
+  .char2{
+    margin-left: 300px;
+    margin-top: -50px;
+  }
