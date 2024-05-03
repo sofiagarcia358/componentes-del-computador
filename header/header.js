@@ -1,7 +1,5 @@
-let header_sof = document.querySelector("header");
-
-let header_sofi = document.querySelector(".inicio");
-header_sofi.innerHTML = '¡Bienvenidos!';
-
-let header_sofis = document.querySelector(".texto");
-header_sofis.innerHTML = 'componentes del computador: ';
+let header_sof = document.querySelector(".header");
+header_sof.innerHTML = `
+    <div class="inicio">¡Bienvenidos!</div>
+    <div class="texto">componentes del computador: </div>
+`;
