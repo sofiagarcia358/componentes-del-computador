@@ -1,24 +1,25 @@
-.p1{
-    width: 400px;
-    font-size: 16px;
-    margin-top: -225px;
-    margin-left: 120px;
+.section{
+  margin-top: -17.5rem;
+  margin-left: 14rem;
+  font-size: 1.6rem;
 }
 .box img {
-    margin-top: -800px;
-    margin-left: 550px;
-    width: 30%; 
-    height: auto; 
-  }
-  .title{
-    text-align: center;
-  }
-  .char{
-    margin-top: 10px;
-    margin-left: 700px;
-  }
+  margin-top: -20rem;
+  margin-left: 71.6rem;
+  height: auto;
+  width: 40%; /* Puedes ajustar el porcentaje según lo que desees */
+}
 
-  .char2{
-    margin-left: 530px;
-    margin-top: -50px;
-  }
+.h1{
+  margin-left: 45rem;
+}
+.nav1{
+  margin-left: 55rem;
+}
+
+.nav2{
+  margin-left: 40rem;
+  margin-top: -5.5rem;
+
+}
+
