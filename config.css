@@ -7,3 +7,9 @@ html{
     font-size: 10px;
     font-family: monospace;
 }
+body{
+    display: grid;
+    grid-template-columns: 30rem 1fr;
+    grid-template-rows: 20rem 1fr 20rem;
+    max-width: 136rem;
+}
