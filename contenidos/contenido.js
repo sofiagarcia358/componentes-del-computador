@@ -1,7 +1,7 @@
 let section = document.querySelector(".section");
 section.innerHTML = `
 
-<h1 class="h1">CPU</h1>
+<h1 class="h2">CPU</h1>
 
 
 <section class="p1">
