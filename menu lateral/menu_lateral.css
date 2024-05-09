@@ -1,13 +1,13 @@
 .menu {
+    grid-column: 1/2;
+    grid-row: 2/2;
     margin-top: 2rem;
     display: grid;
-    grid-auto-rows: min-content;
-    gap: 0.5rem;
-    grid-template-columns: auto; 
+    gap: 1rem;
 }
   
   .menu a {
-    padding: 1rem;
+    padding: 1rem 2rem 4rem 0rem;
     text-decoration: none;
     color: black;
     font-size: 1.6rem;
