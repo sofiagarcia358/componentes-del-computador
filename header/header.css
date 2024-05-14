@@ -3,13 +3,19 @@ header{
     grid-row: 1/2;
     width: 100%;
     height: 20rem;
-    background-color: blanchedalmond;
+    background-color: rgb(37, 36, 36);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 12rem 8rem ;
 }
 .inicio{
     width: 100%;
     height: 15rem;
     font-size: 6rem;
     text-align: center;
+    color: azure;
+    grid-column: 2/3;
+    grid-row: 1/2;
     
 }
 .texto{
@@ -17,9 +23,35 @@ header{
     height: 5rem;
     font-size: 2rem;
     text-align: center;
-    
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: azure;
 }
+.logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.github{
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid azure;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: flex-end;
+    padding: 2rem
 
+}
+.github a{
+    color: azure;
+
+}
 @media screen and (max-width: 1366px) {
    header{
     width: 100%;
