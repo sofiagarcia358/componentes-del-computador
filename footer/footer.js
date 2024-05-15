@@ -1,4 +1,4 @@
-let footer_sof = document.querySelector(".footer");
+................let footer_sof = document.querySelector(".footer");
 footer_sof.innerHTML =  `
 <div class="scl">
 <img src="https://media.licdn.com/dms/image/C560BAQFReQup08LukQ/company-logo_200_200/0/1652286228623?e=2147483647&v=beta&t=xzdEhIpadvcEIWVtHBYt0B0bF8ACNmrZ-uhBKH-Ta80" alt="">
@@ -27,14 +27,7 @@ footer_sof.innerHTML =  `
 <ul class="names3">
   <li>cuarto computacion</li>
 </ul>
-
-
-
-
-
-
-`;
-
+`
 
 
  
