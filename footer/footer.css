@@ -1,4 +1,6 @@
 .footer{
+    border: 1px solid black;
+
     display: grid;
     grid-template-columns: 0rem 1fr 1fr 1fr 1fr;
     grid-template-rows: 0rem 2fr 0rem;
