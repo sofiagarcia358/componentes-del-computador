@@ -27,6 +27,13 @@ footer_sof.innerHTML =  `
 <ul class="names3">
   <li>cuarto computacion</li>
 </ul>
+<div class="page-personal"> 
+    <a href="https://github.com/sofiagarcia358">Github Sofis:</a>
+    </div>
+    <div class="page2">
+    <a href="https://github.com/keneth778">Github Kenn:</a>
+    </div>
+  
 `;
 
 
