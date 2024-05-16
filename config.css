@@ -8,9 +8,11 @@ html{
     font-family: monospace;
 }
 body{
+    margin: auto;
     display: grid;
     grid-template-columns: 30rem 1fr;
     grid-template-rows: 20rem 1fr 20rem;
     max-width: 136rem;
     border: 1px solid black;
+    
 }
