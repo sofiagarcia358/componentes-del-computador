@@ -1,4 +1,4 @@
-................let footer_sof = document.querySelector(".footer");
+let footer_sof = document.querySelector(".footer");
 footer_sof.innerHTML =  `
 <div class="scl">
 <img src="https://media.licdn.com/dms/image/C560BAQFReQup08LukQ/company-logo_200_200/0/1652286228623?e=2147483647&v=beta&t=xzdEhIpadvcEIWVtHBYt0B0bF8ACNmrZ-uhBKH-Ta80" alt="">
@@ -12,8 +12,8 @@ footer_sof.innerHTML =  `
 </ul>
 
 <ul class="names">
-  <li>keneth calderon</li>
-  <li>sofia garcia</li>
+  <li>Keneth Calderon</li>
+  <li>Sofía García</li>
 </ul>
 <h2 class="d">Desarolladores</h2>
 
@@ -21,13 +21,21 @@ footer_sof.innerHTML =  `
 
 <ul class="names2">
   <li>kenn</li>
-  <li>sofi</li>
+  <li>Sofis</li>
 </ul>
 <h2 class="grado">grado</h2>
 <ul class="names3">
   <li>cuarto computacion</li>
 </ul>
-`
+<div class="page-personal"> 
+    <a href="https://github.com/sofiagarcia358">Github Sofis:</a>
+    </div>
+    <div class="page2">
+    <a href="https://github.com/keneth778">Github Kenn:</a>
+    </div>
+  
+`;
+
 
 
  
