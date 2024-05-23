@@ -33,14 +33,13 @@ section.innerHTML = `
 </section>
 
 <nav class ="nav1">
-<li>Velocidad de reloj:</li>
-<li>Tecnología de fabricación</li>
-<li>Consumo de energía</li>
+  <li>Velocidad de reloj:</li>
+  <li>Tecnología de fabricación</li>
+  <li>Consumo de energía</li>
+  </nav>
+  <nav class="nav2">
+  <li>Núcleos</li>
+  <li>Hilos</li>
+  <li>Caché</li>
 </nav>
-
-<nav class="nav2">
-        <li>Núcleos</li>
-        <li>Hilos</li>
-        <li>Caché</li>
-    </nav>
 `;
