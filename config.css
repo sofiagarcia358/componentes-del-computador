@@ -17,24 +17,11 @@ body{
     border: 1px solid black;
     
 }
-@media only screan and (max-width: 360px) {
+@media screen and (max-width: 360px) {
     body{
-        display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 15rem 10rem 1fr 15rem;
+        grid-template-rows: 15rem auto 1fr 15rem;
+
     }
- }
- @media only screan and (max-width: 480px) {
-    body{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 15rem 10rem 1fr 15rem;
-    }
- }
- @media only screan and (max-width: 720px) {
-    body{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 15rem 10rem 1fr 15rem;
-    }
- }
+
+}
