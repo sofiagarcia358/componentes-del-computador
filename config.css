@@ -12,7 +12,29 @@ body{
     display: grid;
     grid-template-columns: 30rem 1fr;
     grid-template-rows: 20rem 1fr 20rem;
-    max-width: 136rem;
+    max-width: 100%;
+    height: 100%;
     border: 1px solid black;
     
 }
+@media only screan and (max-width: 360px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15rem 10rem 1fr 15rem;
+    }
+ }
+ @media only screan and (max-width: 480px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15rem 10rem 1fr 15rem;
+    }
+ }
+ @media only screan and (max-width: 720px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15rem 10rem 1fr 15rem;
+    }
+ }
