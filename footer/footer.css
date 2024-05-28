@@ -4,9 +4,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 12rem 12rem;
     grid-template-rows: 1fr 1fr 1fr;
-    max-width: 136rem;
+    max-width: 100%;
     grid-column: 1/3;
     grid-row: 3/4;
+    
 }
 .scl {
     height: 19rem;
