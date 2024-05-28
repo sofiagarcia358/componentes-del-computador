@@ -19,9 +19,30 @@ body{
 }
 @media screen and (max-width: 360px) {
     body{
+        width: 36rem;
         grid-template-columns: 1fr;
         grid-template-rows: 15rem auto 1fr 15rem;
+        border: 1px solid gray;
+        height: auto;
 
     }
 
+}
+@media screen and (max-width: 480px){
+    body{
+        width: 48rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15rem auto 1fr 15rem;
+        border: 1px solid rgb(1, 56, 1);
+        height: auto;
+    }
+}
+@media screen and (max-width: 720px){
+    body{
+        width: 72rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15rem auto 1fr 15rem;
+        border: 1px solid rgb(1, 56, 1);
+        height: auto;
+    }
 }
