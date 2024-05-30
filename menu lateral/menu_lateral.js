@@ -1,5 +1,7 @@
 let nav = document.querySelector(".menu");
 nav.innerHTML = `
+<div class="menu-padre">
+    
 <div class="men1">
 <a class="l1" href="index.html">index</a>
 </div>
@@ -13,4 +15,5 @@ nav.innerHTML = `
 <a class="l4" href="ram.html">RAM</a>
 </div>
 
+</div>
 `;
