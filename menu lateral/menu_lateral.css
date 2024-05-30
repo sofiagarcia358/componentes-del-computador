@@ -1,18 +1,58 @@
 .menu {
-    grid-column: 1/2;
-    grid-row: 2/2;
-    margin-top: 2rem;
-    display: grid;
-    gap: 1rem;
-    }
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 1rem;
   
-  .menu a {
-    background-color:rgb(245, 240, 240); 
-    border-radius: 2rem;
-    padding: 1rem 2rem 4rem 0rem;
-    text-decoration: none;
-    color: black;
-    font-size: 1.6rem;
-    text-align: center;
-  }
-  
+}
+
+.men1{
+  background-color: rgb(245, 240, 240); 
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  grid-column: 1/1;
+  grid-row: 1/2;
+}
+.men2{
+  background-color: rgb(245, 240, 240); 
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+.men3{
+  background-color: rgb(245, 240, 240); 
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  grid-column: 1/1;
+  grid-row: 3/3;
+}
+.men4{
+  background-color: rgb(245, 240, 240); 
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  grid-column: 1/1;
+  grid-row: 4/4;
+}
